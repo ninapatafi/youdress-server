@@ -4,7 +4,7 @@
     "product_name": "Floral Summer Dress",
     "price": 49.99,
     "image_url": "images/product1.jpg",
-    "quantity": 2
+    "quantity": 3
   },
   {
     "id": 9,
@@ -33,5 +33,12 @@
     "product_name": "Off-Shoulder Tube Top",
     "price": 22.99,
     "image_url": "images/product2.jpg"
+  },
+  {
+    "id": 3,
+    "quantity": 2,
+    "product_name": "Casual Maxi Dress",
+    "price": 59.99,
+    "image_url": "images/product1.jpg"
   }
 ]

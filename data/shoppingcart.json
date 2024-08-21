@@ -1,16 +1,9 @@
 [
   {
-    "id": 36,
-    "product_name": "Canvas Tote Bag",
-    "description": "Durable canvas tote bag for everyday essentials.",
-    "price": 12.99,
-    "category": "Bags & Wallets",
-    "subcategory": "Bags",
-    "popularity": 66,
-    "is_new": true,
-    "is_sale": false,
-    "image_url": "images/product6.jpg",
-    "created_at": "2024-08-14T08:00:00Z",
-    "updated_at": "2024-08-14T08:00:00Z"
+    "id": 1,
+    "product_name": "Floral Summer Dress",
+    "price": 49.99,
+    "image_url": "images/product1.jpg",
+    "quantity": 2
   }
 ]

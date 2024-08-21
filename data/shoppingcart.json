@@ -5,5 +5,33 @@
     "price": 49.99,
     "image_url": "images/product1.jpg",
     "quantity": 2
+  },
+  {
+    "id": 9,
+    "quantity": 1,
+    "product_name": "High-Waisted Pants",
+    "price": 49.99,
+    "image_url": "images/product3.jpg"
+  },
+  {
+    "id": 17,
+    "quantity": 1,
+    "product_name": "Ballet Flats",
+    "price": 29.99,
+    "image_url": "images/product5.jpg"
+  },
+  {
+    "id": 19,
+    "quantity": 1,
+    "product_name": "Slim Wallet",
+    "price": 29.99,
+    "image_url": "images/product6.jpg"
+  },
+  {
+    "id": 23,
+    "quantity": 1,
+    "product_name": "Off-Shoulder Tube Top",
+    "price": 22.99,
+    "image_url": "images/product2.jpg"
   }
 ]

@@ -32,7 +32,7 @@ app.post("/add-to-cart", (req, res) => {
   const quantity = 1;
   const item = { id, quantity, product_name, price, image_url };
 
-  // if item already exists = add quantity
+  // if item already exists = add quantity +1
   const existingItemIndex = cart.findIndex((i) => i.id === id);
   if (existingItemIndex > -1) {
     cart[existingItemIndex].quantity += quantity;
@@ -40,7 +40,7 @@ app.post("/add-to-cart", (req, res) => {
     cart.push(item);
   }
 
-  // Write the updated cart data back to shoppingcart.json
+  // update cart
   try {
     fs.writeFileSync("./data/shoppingcart.json", JSON.stringify(cart, null, 2));
     res.status(200).json(cart); // Returning the updated cart array
@@ -66,7 +66,7 @@ app.delete("/cart/:id", (req, res) => {
 
   try {
     fs.writeFileSync("./data/shoppingcart.json", JSON.stringify(cart, null, 2));
-    res.status(200).json(cart); // Returning the updated cart array
+    res.status(200).json(cart); // updated cart array
   } catch (err) {
     console.error("Error writing to shoppingcart.json:", err);
     res.status(500).json({ error: "Failed to remove item from cart" });

@@ -118,5 +118,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`app running on port ${PORT}`);
+  console.log(`app running on port ${PORT}`, PORT);
 });
